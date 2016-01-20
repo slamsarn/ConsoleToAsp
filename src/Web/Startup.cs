@@ -96,7 +96,7 @@ namespace Web
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Messages}/{action=Index}/{id?}");
             });
 
             SeedData.Initialize(app.ApplicationServices);
